@@ -12,8 +12,8 @@ android {
         applicationId = "com.jinhu"
         minSdk = 21
         targetSdk = 35
-        versionCode = 679
-        versionName = "1.10.28"
+        versionCode = 682
+        versionName = "1.10.30"
         multiDexEnabled = true
 
         val abiFilterList = (properties["ABI_FILTERS"] as? String)?.split(';')
